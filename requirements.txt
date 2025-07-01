@@ -20,7 +20,6 @@ jsonpatch==1.33
 jsonpointer==3.0.0
 jsonschema==4.24.0
 jsonschema-specifications==2025.4.1
-langsmith==0.4.4
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 mdurl==0.1.2
