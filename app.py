@@ -9,8 +9,11 @@ from langchain.prompts import (
 )
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
-llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, model="gpt-3.5-turbo")
+llm = ChatOpenAI(
+    model_name="gpt-3.5-turbo",
+    openai_api_key=OPENAI_API_KEY,
+    temperature=0.7
+)
 
 st.title("映画・音楽の専門家に質問しよう")
 st.write("このアプリでは、映画や音楽の専門家に質問することができます。")
