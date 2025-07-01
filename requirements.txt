@@ -61,9 +61,3 @@ urllib3==2.5.0
 zstandard==0.23.0
 python-dotenv==1.0.0
 langchain==0.1.17
-langchain-core==0.1.17
-langchain-openai==0.1.17
-langchain-text-splitters==0.1.17
-langchain-llms==0.1.17
-langchain-prompts==0.1.17
-
